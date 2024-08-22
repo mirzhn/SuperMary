@@ -37,10 +37,7 @@ mydb.set(my_request)
 mydb.set(my_chat_history)
 
 #прочитать конкретный реквест
-mydb.get('request', 'request_id', '352ce56a-607a-11ef-9362-019e4a8362b9')
+my_request_from_db = mydb.get('request', 'request_id', '352ce56a-607a-11ef-9362-019e4a8362b9')
 
 #прочитать сообщения по реквесту
-mydb.get('chat_history', 'request_id', '19a90a9a-c8fa-4a92-9849-93603b54f0f1')
-
-#прочитать все реквесты для бота
-mydb.get('request', 'target', 'bot')
+my_chat_history_from_db = mydb.get('chat_history', 'request_id', '19a90a9a-c8fa-4a92-9849-93603b54f0f1')

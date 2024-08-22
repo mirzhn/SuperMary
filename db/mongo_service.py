@@ -21,8 +21,7 @@ class MongoService:
     
     def get(self, collection, query=None):
         collection = self.db[collection]
-        documents = collection.find(query)
-        result = list(documents)
-        return result
+        documents = collection.find_one(query)
+        return documents
     
 
