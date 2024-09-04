@@ -8,3 +8,5 @@ requests==2.32.3
 rsa==4.9
 Telethon==1.36.0
 urllib3==2.2.2
+python-telegram-bot==21.4
+python-dotenv==1.0.1
