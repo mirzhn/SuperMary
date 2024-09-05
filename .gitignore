@@ -1,1 +1,15 @@
-/.env
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore database files
+*.db
+
+# Ignore config file
+log/
+
+# Ignore env file
+.env
